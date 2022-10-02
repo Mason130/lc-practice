@@ -4,7 +4,7 @@ class Solution {
         int c = matrix[0].length;
         int[][] dp = new int[r][c];
         
-        // dp[i][j] is the length of rectangle ended with matrix[i][j] in each row
+        // dp[i][j] is the max length of rectangles ended with matrix[i][j] in each row
         for(int i=0; i<r; i++){
             for(int j=0; j<c; j++){
                 if (j == 0)
